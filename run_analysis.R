@@ -138,3 +138,9 @@ tidy <- train_test[, lapply(.SD, mean),
            .SDcols = new_colnames,
            by = c('subject', 'activity_label')]
 
+
+
+# Save tidy data ----------------------------------------------------------
+
+
+write.table(tidy, file = 'tidy.txt', row.names = FALSE)
