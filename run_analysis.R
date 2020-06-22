@@ -134,7 +134,7 @@ train_test <- cbind(train_test, subject, activity)
 # Get the mean by subject and activity ------------------------------------
 
 
-train_test_mean <- train_test[, lapply(.SD, mean), 
+tidy <- train_test[, lapply(.SD, mean), 
            .SDcols = new_colnames,
            by = c('subject', 'activity_label')]
 
