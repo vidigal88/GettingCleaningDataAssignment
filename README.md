@@ -39,4 +39,4 @@ A tidy dataset with the output of task 5: `tidy.txt`.
 
 ## Code Book
 
-A code book describing the data, the variables and any transformation that has been performed to clean up the data: `CodeBook.md`.
+A code book describing the variables that exist in the tidy data set of task 5: `CodeBook.md`.
